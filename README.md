@@ -46,7 +46,7 @@ Utilizei o schema do Felipe como referência para montar minhas próprias regras
 
 ## Publicação
 
-Acesse o link abaixo para visualizar o dashboard:
+Acesse o link para visualizar o dashboard:
 https://vitoransel.github.io/dashboard_porsche_sales/
 
 ## Evidências
