@@ -16,7 +16,7 @@ Dashboard estático para explorar vendas de veículos Porsche por região, model
 └── README.md
 ```
 
-- `index.html`: página principal do dashboard. Abra o arquivo em um navegador; a biblioteca Chart.js é carregada de uma CDN, portanto a conexão com a internet é necessária para os gráficos.
+- `index.html`: página principal do dashboard.
 - `data/`: planilha relacionada ao projeto.
 - `docs/`: documentação do schema e das regras de sanitização.
 - `assets/evidence/`: capturas de tela do dashboard e de filtros aplicados.
@@ -42,7 +42,7 @@ A dashboard foi criada com o **ChatGPT com Canvas**.
 
 ## Preparação da base para a IA
 
-Utilizei o schema do Felipe como referência para montar minhas próprias regras de sanitização. Primeiro, observei os dados e identifiquei alguns problemas na escrita dos nomes, como letras maiúsculas e minúsculas misturadas e espaços desnecessários. Com base nisso, defini regras para padronizar os nomes sem inventar dados. As regras e verificações estão detalhadas em [`docs/schema.md`](docs/schema.md).
+Utilizei o schema do Felipe como referência para montar minhas próprias regras de sanitização. Primeiro, observei os dados e identifiquei alguns problemas na escrita dos nomes, como letras maiúsculas e minúsculas misturadas. Com base nisso, defini regras para padronizar os nomes sem inventar dados. As regras e verificações estão detalhadas em [`docs/schema.md`](docs/schema.md).
 
 ## Publicação
 
@@ -54,3 +54,7 @@ https://vitoransel.github.io/dashboard_porsche_sales/
 - [Dashboard geral](assets/evidence/01-dashboard-geral.jpeg)
 - [Filtro regional](assets/evidence/02-filtro-regional.jpeg)
 - [Filtro por modelo](assets/evidence/03-filtro-modelo.jpeg)
+
+## Uso de inteligência artificial
+
+Durante o desenvolvimento, utilizei ferramentas de IA como apoio na revisão dos textos na organização das ideias. As sugestões e decisões foram revisadas ao longo do processo; a IA serviu como apoio, não como substituta da análise e validação realizadas no projeto.
